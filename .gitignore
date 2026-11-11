@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Model checkpoints / experiment outputs (large)
+output/
+output2/
+outputs/
+*.pth
+*.pt
+*.pkl
+
+# Training logs
+logs/
+*.log
+train_log.txt
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
