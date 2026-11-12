@@ -78,6 +78,10 @@ DATASETS:
   NAMES: 'cu_market_bike_train'
   ROOT_DIR: '/mnt/sda/yjl/ReID/data'
   # SUBGROUP_JSON_PATH: '/mnt/sda/yjl/ReID/data/subgroup_map.json'
+    # POPD dataset/source domains:
+  # 0 = Market
+  # 1 = CS-S / BikeReID
+  NUM_DOMAINS: 2
 OUTPUT_DIR: '/mnt/sda/yjl/ReID/CLIP-ReID-master/output2/test/cu_bike_market_to_bike_duke_efficiency'
 
 #   NAMES: ('pwc')
